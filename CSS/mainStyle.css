@@ -1,0 +1,653 @@
+﻿body
+{
+    margin:0;
+    padding:0;
+    background-color: #f2e7e7;
+}
+.topLine
+{
+    background-color:#ee3939;
+    width:100%;
+    height:10px;
+
+}
+header
+{
+    height: 75px;
+    width: 100%;
+    background-color: #f2e7e7;
+    box-shadow: 2px 5px 10px #a8a0a0;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.headerTitleContainer
+{
+    display: flex;
+}
+.headerTitle
+{
+    flex: 3;
+    letter-spacing: 1px;
+    margin: 1% -26% 1% 10%;
+}
+.thitleA
+{
+    color: #ee3939;
+    font-style: oblique;
+    text-shadow: -5px 1px 8px gray;
+}
+
+.divRegister
+{
+    flex: 3;
+    text-align: center;
+    font-size: x-large;
+    font-family: cursive;
+    margin: 1% -15% 1% -22%;
+}
+.divLog
+{
+    flex: 3;
+    text-align: center;
+    font-size: x-large;
+    font-family: cursive;
+    margin: 1% -18% 1% -28%;
+}
+.divChoose
+{
+    flex: 3;
+    text-align: center;
+    font-size: x-large;
+    font-family: cursive;
+    margin: 1% -17% 2% -23%;
+}
+.divReturnCar
+{
+    flex: 3;
+    text-align: center;
+    font-size: x-large;
+    font-family: cursive;
+    margin: 1% -20% 2% -22%;
+}
+.divUserConnected
+{
+    flex: 1;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    visibility: hidden;
+    color: gray;
+    margin-top: 1.7%;
+    margin-right: -2%;
+    margin-left: 2%;
+}
+.aBorder
+{
+    padding-left: 5%;
+    border-left: 2px solid #ee3939;
+}
+a
+{
+   text-decoration:none;
+   color: #551A8B;
+}
+[title="new user? click here!"]:hover
+{
+    font-size:25px;
+}
+[title="click to log in"]:hover
+{
+    font-size:25px;
+}
+[title="click to log out"]:hover
+{
+    font-size:25px;
+}
+[title="click to get a car"]:hover
+{
+    font-size:25px;
+}
+[title="click to return a car"]:hover
+{
+    font-size:25px;
+}
+.homePageSection
+{
+    background: url('../images/background home page.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 70%;
+    height: 535px;
+    margin: 1% auto;
+    box-shadow: 4px 5px 20px black;
+}
+aside
+{
+    float: left;
+    width: 28%;
+    margin: 4% 3%;
+    color: #333;
+    background-color: #ede7e7;
+    opacity: 0.8;
+    height: 75%;
+    padding: 3% 2%;
+    text-align: center;
+    box-shadow: 2px 5px 10px #a8a0a0;
+}
+.quickPickUpDiv
+{
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    margin-top: 0%;
+    margin-bottom: 10%%;
+    font-style: italic;
+    color: #ee3939;
+}
+.formForQuickPicUp
+{
+    display:initial;
+}
+.picUpLocationContainer
+{
+    margin:3% 5%;
+    height:20%
+}
+.picUpDateContainer
+{
+    margin:8% 5%;
+    height:20%;
+}
+.picUpEndContainer
+{
+    margin:8% 5%;
+    height:20%;
+}
+.divPicUpLocation,.divPicUpDate,.divEndDate
+{
+    color: #333;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin: 1% 0%;
+    text-align: left;
+    margin-left: 4%;
+}
+.picUpLocationInput,.picUpDateInput,.endDateInput
+{   
+    background-color: #f2e7e7;
+    height: 25%;
+    width: 91%;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    outline-color: blue;
+}
+.homePagePicUpButton
+{
+    background-color:#ee3939;
+    color:white;
+    height:10%;
+    width:32%;
+    outline: none;
+    margin-left: -3%;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    text-align:center;
+    border-radius:6px;
+    border: none;
+}
+.divAboutUs
+{
+    float: right;
+    height: 63%;
+    width: 55%;
+    background-color: #ede7e7;
+    opacity: 0.8;
+    margin-top: 9%;
+    margin-right: 3%;
+    padding: 1% 1%;
+    box-shadow: 2px 5px 10px #a8a0a0; 
+    font-family: cursive;
+    overflow: auto;
+
+}
+.aboutUsTitle
+{
+    text-align: center;
+    font-family: monospace;
+    font-size: 26px;
+    font-style: italic;
+    color: #ee3939;
+    margin-bottom: -2%;
+    margin-top: 4%;
+}
+.aboutUsPContainer
+{
+    margin:5%;
+}
+.footerC
+{
+    border-top:1px solid black;
+    clear:both;
+    text-align: center;
+    font-family: cursive;
+    height:30px;
+    padding:0;
+}
+.classForDisplayNone
+{
+    display:none;
+}
+.divValidationForQuickPicUpClass
+{
+    color:red;
+    margin-top: 4%;
+    font-size:small;
+}
+@media screen and (max-width : 1194px) {
+    .homePagePicUpButton
+    {
+        font-size:12px;
+        height: 8%;
+        width: 37%;
+    }
+}
+@media screen and (max-width : 1100px) and (min-width: 779px) {
+    header
+    {
+        height: 65px;
+    }
+    .headerTitle
+    {
+        margin-left:1%;
+    }
+    .thitleA
+    {
+        font-size: 22px;
+    }
+    .aBorder 
+    {
+        padding-left: 3%;
+    }
+    .divRegister,.divLog,.divChoose,.divReturnCar
+    {
+        font-size:17px;
+        margin-top: 2%;
+    }
+    .divRegister
+    {
+        margin-left: -46%;
+
+    }
+    .divLog
+    {
+        margin-left:-42%;
+
+    }
+    .divChoose
+    {
+        margin-left: -36%;
+
+    }
+    .divReturnCar
+    {
+        margin-left:-35%;
+
+    }
+    [title="new user? click here!"]:hover
+    {
+        font-size:15px;
+    }
+    [title="click to log in"]:hover
+    {
+        font-size:15px;
+    }
+    [title="click to log out"]:hover
+    {
+        font-size:15px;
+    }
+    [title="click to get a car"]:hover
+    {
+        font-size:15px;
+    }
+    [title="click to return a car"]:hover
+    {
+        font-size:15px;
+    }
+    .divUserConnected
+    {
+        font-size:12px;
+        margin-top: 3%;
+    }
+    aside
+    {
+        padding: 1% 2%;
+        font-size: 18px;
+    }
+    .divPicUpLocation, .divPicUpDate, .divEndDate
+    {
+        font-size:13px;
+    }
+    .divAboutUs
+    {
+     padding: 0% 1%;
+
+    }
+    .aboutUsPContainer 
+    {
+    font-size: 13px;
+    }
+    .homePagePicUpButton
+    {
+        font-size:10px;
+        height: 8%;
+        width: 37%;
+    }
+}
+@media screen and (max-width : 779px) and (min-width: 596px){
+
+    header
+    {
+        height: 65px;
+    }
+    .headerTitle
+    {
+        margin-left:1%;
+    }
+    .thitleA
+    {
+        font-size:18px;
+    }
+    .aBorder 
+    {
+        padding-left: 3%;
+    }
+    .divRegister,.divLog,.divChoose,.divReturnCar
+    {
+        font-size:small;
+        margin-top: 3%;
+    }
+    .divRegister
+    {
+        margin-left: -46%;
+
+    }
+    .divLog
+    {
+        margin-left:-42%;
+
+    }
+    .divChoose
+    {
+        margin-left: -36%;
+
+    }
+    .divReturnCar
+    {
+        margin-left:-35%;
+
+    }
+    
+    [title="new user? click here!"]:hover
+    {
+        font-size:15px;
+    }
+    [title="click to log in"]:hover
+    {
+        font-size:15px;
+    }
+    [title="click to log out"]:hover
+    {
+        font-size:15px;
+    }
+    [title="click to get a car"]:hover
+    {
+        font-size:15px;
+    }
+    [title="click to return a car"]:hover
+    {
+        font-size:15px;
+    }
+    .divUserConnected
+    {
+        font-size:12px;
+        margin-top: 3%;
+        margin-right:-1.7%;
+    }
+     aside
+    {
+        padding: 1% 2%;
+        font-size: 18px;
+    }
+    .quickPickUpDiv 
+    {
+        font-size: 17px;
+    }
+    .divPicUpLocation, .divPicUpDate, .divEndDate
+    {
+        font-size:12px;
+    }
+    .divAboutUs
+    {
+     padding: 0% 1%;
+
+    }
+    .aboutUsPContainer 
+    {
+    font-size: 13px;
+    }
+    .homePagePicUpButton
+    {
+        font-size: 9px;
+        height: 8%;
+        width: 47%;
+    }
+}
+@media screen and (max-width : 596px) and (min-width : 580px){
+    header
+    {
+        height: 65px;
+    }
+    .headerTitle
+    {
+        margin-left:1%;
+    }
+    .thitleA
+    {
+        font-size:18px;
+    }
+    .aBorder 
+    {
+        padding-left: 3%;
+    }
+    .divRegister,.divLog,.divChoose,.divReturnCar
+    {
+        font-size:small;
+        margin-top: 3%;
+    }
+    .divRegister
+    {
+        margin-left: -46%;
+
+    }
+    .divLog
+    {
+        margin-left:-42%;
+
+    }
+    .divChoose
+    {
+        margin-left: -36%;
+
+    }
+    .divReturnCar
+    {
+        margin-left:-35%;
+
+    }
+    [title="new user? click here!"]:hover
+    {
+        font-size:15px;
+    }
+    [title="click to log in"]:hover
+    {
+        font-size:15px;
+    }
+    [title="click to log out"]:hover
+    {
+        font-size:15px;
+    }
+    [title="click to get a car"]:hover
+    {
+        font-size:15px;
+    }
+    [title="click to return a car"]:hover
+    {
+        font-size:15px;
+    }
+    .divUserConnected
+    {
+        font-size:12px;
+        margin-top: 3%;
+        margin-right:-1.7%;
+    }
+    aside
+    {
+        padding: 1% 2%;
+        font-size: 18px;
+    }
+    .quickPickUpDiv 
+    {
+        font-size: 15px;
+    }
+    .divPicUpLocation, .divPicUpDate, .divEndDate
+    {
+        font-size:11px;
+    }
+    .divAboutUs
+    {
+     padding: 0% 1%;
+
+    }
+    .aboutUsPContainer 
+    {
+    font-size: 11px;
+    }
+    .homePagePicUpButton
+    {
+        font-size: 9px;
+        height: 8%;
+        width: 47%;
+    }
+    .divValidationForQuickPicUpClass
+    {
+        font-size:x-small;
+    }
+}
+@media screen and (max-width : 580px) /*and (min-width : 447px)*/{
+    header
+    {
+        height: 60px;
+    }
+    .headerTitle
+    {
+        margin-top:0%;
+        margin-left:1%;
+    }
+    .thitleA
+    {
+        font-size:16px;
+    }
+    .aBorder 
+    {
+        padding-left: 3%;
+    }
+    .divRegister,.divLog,.divChoose,.divReturnCar
+    {
+       font-size: x-small;
+       margin-top: 4%;
+    }
+    .divRegister
+    {
+        margin-left: -30%;
+
+    }
+    .divLog
+    {
+        margin-left:-33%;
+
+    }
+    .divChoose
+    {
+        margin-left: -27%;
+
+    }
+    .divReturnCar
+    {
+        margin-left:-28%;
+
+    }
+    [title="new user? click here!"]:hover
+    {
+        font-size:12px;
+    }
+    [title="click to log in"]:hover
+    {
+        font-size:12px;
+    }
+    [title="click to log out"]:hover
+    {
+        font-size:12px;
+    }
+    [title="click to get a car"]:hover
+    {
+        font-size:12px;
+    }
+    [title="click to return a car"]:hover
+    {
+        font-size:12px;
+    }
+    .divUserConnected
+    {
+        font-size: 9px;
+        margin-top: 4.3%;
+        margin-right:0%;
+    }
+    aside
+    {
+        padding: 1% 2%;
+        font-size: 18px;
+    }
+    .quickPickUpDiv 
+    {
+        font-size: 12px;
+    }
+    .divPicUpLocation, .divPicUpDate, .divEndDate
+    {
+        font-size:8px;
+    }
+    .divAboutUs
+    {
+        padding: 0% 1%;
+
+    }
+    .aboutUsTitle
+    {
+       font-size:21px;
+    }
+    .aboutUsPContainer 
+    {
+       font-size: 11px;
+    }
+    .homePagePicUpButton
+    {
+       font-size: 9px;
+       height: 7%;
+       width: 67%;
+    }
+    .divValidationForQuickPicUpClass
+    {
+        font-size:x-small;
+    }
+}

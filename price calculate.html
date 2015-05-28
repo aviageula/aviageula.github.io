@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="cars,rent,lease,Cheap,best" />
+    <meta name="description" content="cheapest car rental company in Israel" />
+    <meta name="author" content="Avia geula" />
+    <title>AG Cheap Car Rentals, Best Prices Guaranteed!</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="JS/homePageJS.js"></script>
+    <script src="JS/fullYear.js"></script>
+    <script src="JS/register&log in script.js"></script>
+    <script src="JS/price calculate script.js"></script>
+    <link rel="shortcut icon" href="images/title icon.jpg" />
+    <link href="CSS/mainStyle.css" rel="stylesheet" />
+    <link href="CSS/price calculate style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="topLine"></div>
+        <div class="headerTitleContainer">
+            <h1 class="headerTitle" title="home page"><a href="index.html" class="thitleA">AG car rental</a></h1>
+            <div class="divRegister"><a href="register&log in.html" title="new user? click here!">register</a></div>
+            <div class="divLog"><a href="register&log in.html" title="click to log in" class="aBorder">log in</a></div>
+            <div class="divChoose"><a href="choose car.html" title="click to get a car" class="aBorder">choose car</a></div>
+            <div class="divReturnCar"><a href="return car.html" title="click to return a car" class="aBorder">return car</a></div>
+            <div class="divUserConnected"><span>avia </span>&nbsp;is connected</div>
+        </div>
+    </header>
+
+    <section class="priceCalculateSection">
+
+        <div class="divOnSection">
+            <div class="selectsDiv">
+                <h3 class="selectsTitle">Price Calculation</h3>
+                <span class="startSpan">Traveling start point</span>
+                <input type="text" name="startPoint" class="startPointInput"/>
+                <div class="classForDisplayNone startPointValidationDiv">Please enter start point</div>
+                <span class="endSpan">Traveling end point</span>
+                <input type="text" name="endPoint" class="endPointInput" />
+                <div class="classForDisplayNone endPointValidationDiv">Please enter end point</div>
+                <input type="button" value="calculate" class="calculateButton" />
+                <div class="classForDisplayNone divForValidationOfCity">Please enter only city names</div>
+            </div>
+
+            <div class="divMessageBox classForDisplayNone">
+                <div class="messageToDisplayThePrice">
+                    <p>You have chosen a <span id="spanForPlanLength">xx</span> km plan.</p>
+                    <p>
+                        The price for this plan is <span id="spanForPriceOfPlan">xx</span>, plus an additional <span id="spanForPriceOfCar">xx</span>
+                        for the automobile that you chose --> <span id="totalPrice"></span> Total price. Do you want to continue?
+                    </p>
+                    <input type="button" value="continue" class="continueRentalButton" />
+                    <input type="button" value="cancel" class="cancelRentalButton" />
+                </div>
+            </div>
+
+            <div class="lestStepBox">
+                <p>We at AG car rental do our best to insure that you recive the automobile you desire
+                as fast as possible.</p>
+                <p>You are now in the last step before receving the automobile!!</p>
+            </div>
+        </div>
+
+        <div class="loadingImage classForDisplayNone">
+            <img src="images/loading.gif" height="64" width="64" />
+            <br />
+            <span>Loading...</span>
+        </div>
+
+    </section>
+    <div class="divForAudio">
+        <audio>
+            <source src="audio for waiting.mp3" type="audio/mpeg" />
+        </audio>
+    </div>
+    <footer class="footerC">
+        <p class="pForYear">&copy; AG car rental Ltd. <span id="spanForYear"></span></p>
+    </footer>
+
+</body>
+</html>

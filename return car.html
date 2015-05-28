@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="cars,rent,lease,Cheap,best" />
+    <meta name="description" content="cheapest car rental company in Israel" />
+    <meta name="author" content="Avia geula" />
+    <title>AG Cheap Car Rentals, Best Prices Guaranteed!</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="JS/homePageJS.js"></script>
+    <script src="JS/fullYear.js"></script>
+    <script src="JS/register&log in script.js"></script>
+    <script src="JS/return car script.js"></script>
+    <link rel="shortcut icon" href="images/title icon.jpg" />
+    <link href="CSS/mainStyle.css" rel="stylesheet" />
+    <link href="CSS/return car style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header>
+        <div class="topLine"></div>
+        <div class="headerTitleContainer">
+            <h1 class="headerTitle" title="home page"><a href="index.html" class="thitleA">AG car rental</a></h1>
+            <div class="divRegister"><a href="register&log in.html" title="new user? click here!">register</a></div>
+            <div class="divLog"><a href="register&log in.html" title="click to log in" class="aBorder">log in</a></div>
+            <div class="divChoose"><a href="choose car.html" title="click to get a car" class="aBorder">choose car</a></div>
+            <div class="divReturnCar"><a href="return car.html" title="click to return a car" class="aBorder">return car</a></div>
+            <div class="divUserConnected"><span>avia </span>&nbsp;is connected</div>
+        </div>
+    </header>
+
+    <section class="returnCarSection">
+
+        <div class="divOnReturnCarSection">
+            <div class="returnCarPsContainer">
+                <p>We hope you enjoyed our vehicle.</p>
+                <p>To return a car, please fill in the following fields:</p>
+            </div>
+            <div class="returnCarInputsContainer">
+               <div class="carDiscriptionDiv">
+                   <span class="modelSpan">Model:</span>
+                   <select class="modelSelect">
+                       <option>Mazda6</option>
+                       <option>Chevrolet Savana</option>
+                       <option>Volkswagen Passat</option>
+                       <option>Toyota Corolla</option>
+                       <option>Volkswagen Sicrocco</option>
+                       <option>Volkswagen Golf</option>
+                       <option>Chevrolet Spark</option>
+                       <option>Toyota Hilux</option>
+                       <option>Chevrolet Silverado</option>
+                       <option>Mazda CX-5</option>
+                   </select>
+                   <span class="carNumberSpan">Car number:</span>
+                   <input type="text" name="carNumber" class="carNumberInput" maxlength="10" />
+                   <div class="divValidationForCarNumberClass classForDisplayNone">please enter valid car number</div>
+               </div>
+                <div class="divForReviews">
+                    <p class="pEnjoyed">Enjoyed our service?</p>
+                    <p>Have any reviews for us?</p>
+                    <p>We would be happy if you write us!</p>
+                </div>
+                <textarea class="textAreaForCommentsClass" placeholder="write here your opinion..." maxlength="305"></textarea>
+            
+                <input type="button" value="return this car" class="returnCarButton"/>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footerC">
+        <p class="pForYear">&copy; AG car rental Ltd. <span id="spanForYear"></span></p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,476 @@
+﻿.priceCalculateSection
+{
+    background: url('../images/return car background2.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 70%;
+    height: 535px;
+    margin: 1% auto;
+    box-shadow: 4px 5px 20px black;
+}
+.divOnSection
+{
+    width: 58%;
+    position: absolute;
+    left: 20.9%;
+    top: 15.3%;
+    color: #333;
+    background-color: #ede7e7;
+    opacity: 0.9;
+    height: 83%;
+    text-align: center;
+    box-shadow: 2px 5px 10px #a8a0a0;
+}
+.selectsDiv
+{
+    margin-top: 5%;
+    margin-left: 8%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    height: 25%;
+    background-color: gray;
+    width: 84%;
+    box-shadow: 2px 2px 10px black;
+}
+.selectsTitle
+{
+    color: #ee3939;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 3%;
+}
+.startSpan
+{
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-left: 0%;
+}
+.startPointInput
+{
+    margin-right: 6%;
+    background-color: #f2e7e7;
+    height: 14%;
+    width: 23%;
+    font-size: 14px;
+    font-weight: 900;
+    text-align:center;
+}
+.endSpan
+{
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-left: -3%;
+}
+.endPointInput
+{
+    background-color: #f2e7e7;
+    height: 14%;
+    width: 23%;
+    font-size: 14px;
+    font-weight: 900;
+    margin-right: 0%;
+    text-align:center;
+}
+.calculateButton
+{
+    background-color: #ee3939;
+    outline: none;
+    height: 29%;
+    width: 17%;
+    color: white;
+    border-radius: 6px;
+    margin-top: 5%;
+    margin-left: 41.5%;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    display: block;
+}
+.loadingImage
+{
+    height: 100px;
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    text-align: center;
+}
+.divMessageBox
+{
+    margin: 10% 5%;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: monospace;
+}
+.messageToDisplayThePrice
+{
+    color: black;
+}
+.classForDisplayNone
+{
+    display:none;
+
+}
+.continueRentalButton
+{
+    background-color: #ee3939;
+    outline: none;
+    height: 30px;
+    width: 17%;
+    color: white;
+    border-radius: 6px;
+    margin-top: 5%;
+    margin-left: 3%;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    border:none;
+}
+.cancelRentalButton
+{
+    background-color: #ee3939;
+    outline: none;
+    height: 30px;
+    width: 17%;
+    color: white;
+    border-radius: 6px;
+    margin-top: 5%;
+    margin-left: 3%;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    border:none;
+}
+.lestStepBox
+{
+    margin: 13% 5%;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: monospace;
+    color: black;
+}
+.startPointValidationDiv
+{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 27%;
+    left: 33%;
+}
+.endPointValidationDiv
+{
+    color: red;
+    font-size: 13px;
+    position: absolute;
+    top: 27%;
+    left: 74%;
+}
+.divForValidationOfCity
+{
+    color: red;
+    font-size: 13px;
+    position: absolute;
+    top: 27%;
+    left: 40%
+}
+
+@media screen and (max-width : 1309px)  and (min-width : 1054px){
+    .startSpan
+    {
+        font-size: 12px;
+    }
+    .startPointInput
+    {
+        width: 21%;
+    }
+    .endSpan
+    {
+        font-size: 12px;
+    }
+    .endPointInput
+    {
+        width: 21%;
+    }
+
+}
+@media screen and (max-width : 1054px) and (min-width : 879px) {
+    .startSpan
+    {
+        font-size: 10px;
+        margin-left: -0.2%;
+    }
+    .startPointInput
+    {
+        width: 21%;
+    }
+    .endSpan
+    {
+    font-size: 10px;
+    margin-left: -4%;
+    }
+    .endPointInput
+    {
+        width: 21%;
+    }
+
+}
+@media screen and (max-width : 879px) and (min-width: 745px) {
+    .selectsDiv
+    {
+        width: 90%;
+        margin-left: 5.1%;
+    }
+    .startSpan
+    {
+        font-size: 10px;
+        margin-left: -0.2%;
+    }
+    .startPointInput
+    {
+        width: 19%;
+    }
+    .endSpan
+    {
+    font-size: 10px;
+    margin-left: -6%;
+    }
+    .endPointInput
+    {
+        width: 19%;
+    }
+    .calculateButton
+    {
+        width: 18%;
+    }
+}
+@media screen and (max-width : 745px) and (min-width: 610px) {
+
+    .selectsDiv
+    {
+        width: 90%;
+        margin-left: 5.1%;
+        height:40%;
+    }
+    .startSpan
+    {
+        font-size: 10px;
+        margin-left: -5.2%;
+        display:block;
+    }
+    .startPointInput
+    {
+        width: 29%;
+        height:9%;
+    }
+    .endSpan
+    {
+        font-size: 10px;
+        margin-left: -6%;
+        display:block;
+    }
+    .endPointInput
+    {
+        width: 29%;
+        height:9%;
+        margin-left: -6%;
+    }
+    .calculateButton
+    {
+        width: 17%;
+        height: 15%;
+        font-size: 11px;
+        margin-left: 39%;
+    }
+}
+@media screen and (max-width : 610px) and (min-width : 486px) {
+  
+    .selectsDiv
+    {
+        width: 90%;
+        margin-left: 5.1%;
+        height:40%;
+    }
+    .startSpan
+    {
+        font-size: 10px;
+        margin-left: -5.2%;
+        display:block;
+    }
+    .startPointInput
+    {
+        width: 29%;
+        height:9%;
+    }
+    .endSpan
+    {
+        font-size: 10px;
+        margin-left: -6%;
+        display:block;
+    }
+    .endPointInput
+    {
+        width: 29%;
+        height:9%;
+        margin-left: -6%;
+    }
+    .calculateButton
+    {
+        width: 21%;
+        height: 15%;
+        font-size: 11px;
+        margin-left: 39%;
+    }
+    .lestStepBox
+    {
+        font-size:19px;
+    }
+}
+@media screen and (max-width : 486px) /*and (min-width : 447px)*/{
+    .divOnSection
+    {
+        top:12.3%;
+    }
+   .selectsDiv
+    {
+        width: 90%;
+        margin-left: 5.1%;
+        height:40%;
+    }
+    .startSpan
+    {
+        font-size: 10px;
+        margin-left: -5.2%;
+        display:block;
+    }
+    .startPointInput
+    {
+        width: 29%;
+        height:9%;
+    }
+    .endSpan
+    {
+        font-size: 10px;
+        margin-left: -6%;
+        display:block;
+    }
+    .endPointInput
+    {
+        width: 29%;
+        height:9%;
+        margin-left: -6%;
+    }
+    .calculateButton
+    {
+        width: 24%;
+        height: 15%;
+        font-size: 9px;
+        margin-left: 39%;
+    }
+    .lestStepBox
+    {
+        font-size:17px;
+    }
+}
+@media screen and (max-height:610px) and (min-height:541px){
+    .divOnSection
+    {
+        top: 18.9%;
+    }
+}
+@media screen and (max-height:541px) and (min-height:506px){
+    .divOnSection
+    {
+        top: 25.9%;
+    }
+    .selectsDiv
+    {
+        height:30%;
+    }
+}
+@media screen and (max-height:506px) and (min-height:430px){
+    .divOnSection
+    {
+        top: 24.9%;
+        height:96%;
+    }
+    .selectsDiv
+    {
+        height:30%;
+    }
+   .lestStepBox
+    {
+        font-size:15px;
+        margin-top:8%;
+    }
+   .messageToDisplayThePrice
+   {
+       font-size:15px;
+       margin-top:-6%;
+   }
+   .calculateButton
+   {
+       height:28%;
+       font-size: 13px;
+       margin-top:5%;
+   }
+}
+@media screen and (max-height:430px) and (min-height:374px){
+    .divOnSection
+    {
+        top: 33.9%;
+        height:113%;
+    }
+    .selectsDiv
+    {
+        height:30%;
+    }
+    .lestStepBox
+    {
+        font-size:15px;
+        margin-top:9%;
+    }
+   .messageToDisplayThePrice
+   {
+       font-size:15px;
+       margin-top:-6%;
+   }
+     .calculateButton
+   {
+       height:28%;
+       font-size: 13px;
+       margin-top:5%;
+   }
+}
+@media screen and (max-height:374px) /*and (min-height:474px)*/{
+    .divOnSection
+    {
+        top: 51.9%;
+        height:107%;
+    }
+    .selectsDiv
+    {
+        height:30%;
+    }
+    .lestStepBox
+    {
+        font-size:15px;
+        margin-top:9%;
+    }
+   .messageToDisplayThePrice
+   {
+       font-size:15px;
+       margin-top:-10%;
+   }
+     .calculateButton
+   {
+       height:28%;
+       font-size: 12px;
+       margin-top:3%;
+   }
+}

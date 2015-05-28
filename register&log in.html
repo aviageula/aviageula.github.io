@@ -1,0 +1,98 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="cars,rent,lease,Cheap,best" />
+    <meta name="description" content="cheapest car rental company in Israel" />
+    <meta name="author" content="Avia geula" />
+    <title>AG Cheap Car Rentals, Best Prices Guaranteed!</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="JS/homePageJS.js"></script>
+    <script src="JS/fullYear.js"></script>
+    <script src="JS/register&log in script.js"></script>
+    <script src="JS/choose car script.js"></script>
+    <link rel="shortcut icon" href="images/title icon.jpg" />
+    <link href="CSS/mainStyle.css" rel="stylesheet" />
+    <link href="CSS/register&log in style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header>
+        <div class="topLine"></div>
+        <div class="headerTitleContainer">
+            <h1 class="headerTitle" title="home page"><a href="index.html" class="thitleA">AG car rental</a></h1>
+            <div class="divRegister"><a href="register&log in.html" title="new user? click here!">register</a></div>
+            <div class="divLog"><a href="register&log in.html" title="click to log in" class="aBorder">log in</a></div>
+            <div class="divChoose"><a href="choose car.html" title="click to get a car" class="aBorder">choose car</a></div>
+            <div class="divReturnCar"><a href="return car.html" title="click to return a car" class="aBorder">return car</a></div>
+            <div class="divUserConnected"><span>avia</span>&nbsp; is connected</div>
+        </div>
+    </header>
+
+    <section class="registerSection">
+        <div class="divForInputsRegister">
+            <div class="notMemberDiv">Not a member? Register now</div>
+            <form name="registerForm" novalidate>
+                <div class="firstNameBox">
+                    <div class="firstNameDiv">First name:</div>
+                    <input type="text" name="firstName" class="firstNameInput" />
+                    <div class="divValidationClass classForDisplayNone">please enter first name</div>
+                </div>
+
+                <div class="lastNameBox">
+                    <div class="lastNameDiv">Last name:</div>
+                    <input type="text" name="lastName" class="lastNameInput" />
+                    <div class="divValidationClass classForDisplayNone">please enter last name</div>
+                </div>
+
+                <div class="emailBox">
+                    <div class="emailDiv">Email address:</div>
+                    <input type="email" name="email" class="emailInput" />
+                    <div class="divValidationClass classForDisplayNone">please enter valid email</div>
+                    <div class="divValidationClass classForDisplayNone">this email is allredy taken</div>
+                </div>
+
+                <div class="dateOfBirthBox">
+                    <div class="dateOfBirthDiv">Date of birth:</div>
+                    <input type="date" name="dateOfBirth" class="dateOfBirthinput" />
+                    <div class="divValidationClass classForDisplayNone">Please enter date of birth</div>
+                </div>
+
+                <div class="mobilePhoneBox">
+                    <div class="mobilePhoneDiv">Mobile phone:</div>
+                    <input type="tel" name="mobilePhone" class="mobilePhoneinput" />
+                    <div class="divValidationClass classForDisplayNone">Please enter at least one phone number</div>
+                </div>
+
+                <div class="homePhoneBox">
+                    <div class="homePhoneDiv">Home phone:</div>
+                    <input type="tel" name="homePhone" class="homePhoneinput" />
+                    <div class="divValidationClass classForDisplayNone">Please enter at least one phone number</div>
+                </div>
+
+                <div class="licenseNumberBox">
+                    <div class="licenseNumberDiv">License number:</div>
+                    <input type="text" name="licenseNumber" class="licenseNumberinput" />
+                    <div class="divValidationClass classForDisplayNone">Please enter valid license number</div>
+                </div>
+                <input type="submit" value="Register" class="registerButton" />
+            </form>
+        </div>
+        <div class="divForLogInInput">
+            <div class="singInDiv">Sign in to your account</div>
+            <form name="logInForm" novalidate>
+                <div class="logInBox">
+                    <div class="logInWithEmaildiv">Email address:</div>
+                    <input type="email" class="logInInput" name="userName(email)" />
+                    <div class="divValidationForLogIn classForDisplayNone">the email address you entered is invalid</div>
+                </div>
+                <input type="submit" value="Sing in" class="singInButton" />
+            </form>
+        </div>
+
+    </section>
+
+    <footer class="footerC">
+        <p class="pForYear">&copy; AG car rental Ltd. <span id="spanForYear"></span></p>
+    </footer>
+</body>
+</html>

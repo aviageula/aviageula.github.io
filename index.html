@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="cars,rent,lease,Cheap,best" />
+    <meta name="description" content="cheapest car rental company in Israel" />
+    <meta name="author" content="Avia geula" />
+    <title>AG Cheap Car Rentals, Best Prices Guaranteed!</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="JS/homePageJS.js"></script>
+    <script src="JS/fullYear.js"></script>
+    <script src="JS/register&log in script.js"></script>
+    <script src="JS/choose car script.js"></script>
+    <link rel="shortcut icon" href="images/title icon.jpg" />
+    <link href="CSS/mainStyle.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header>
+        <div class="topLine"></div>
+        <div class="headerTitleContainer">
+            <h1 class="headerTitle" title="home page"><a href="index.html" class="thitleA">AG car rental</a></h1>
+            <div class="divRegister"><a href="register&log in.html" title="new user? click here!">register</a></div>
+            <div class="divLog"><a href="register&log in.html" title="click to log in" class="aBorder">log in</a></div>
+            <div class="divChoose"><a href="choose car.html" title="click to get a car" class="aBorder">choose car</a></div>
+            <div class="divReturnCar"><a href="return car.html" title="click to return a car" class="aBorder">return car</a></div>
+            <div class="divUserConnected"><span>avia </span>&nbsp;is connected</div>
+        </div>  
+    </header>
+
+        <section class="homePageSection">
+            <aside>
+                <form name="quickPicUpForm" class="formForQuickPicUp" novalidate>
+                    <div class="quickPickUpDiv">Quick pic up</div>
+                    <div class="picUpLocationContainer">
+                        <div class="divPicUpLocation">Pic up location</div>
+                        <input type="text" name="startLocation" placeholder="Enter address, zip, city, or airport" class="picUpLocationInput" maxlength="80" />
+                        <div class="divValidationForQuickPicUpClass classForDisplayNone">please enter location</div>
+                    </div>
+                    <div class="picUpDateContainer">
+                        <div class="divPicUpDate">Pic up date</div>
+                        <input type="date" name="startDate" class="picUpDateInput" maxlength="15" />
+                        <div class="divValidationForQuickPicUpClass classForDisplayNone">please enter pic up date</div>
+                    </div>
+                    <div class="picUpEndContainer">
+                        <div class="divEndDate">Drop off date</div>
+                        <input type="date" name="endDate" class="endDateInput" maxlength="15" />
+                        <div class="divValidationForQuickPicUpClass classForDisplayNone">please enter drop off date</div>
+                    </div>
+                    <input type="submit" value="Find a car" class="homePagePicUpButton">
+                </form>
+            </aside>
+            <div class="divAboutUs">
+                <p class="aboutUsTitle">About us</p>
+                <div class="aboutUsPContainer">
+                    <p>* We have experience in the car rental business since 1956 !</p>
+                    <p>* We have 130 branches spread around the globe !</p>
+                    <p>* We deal with all types of vehicles !</p>
+                    <p>* We are dedicated and give reliable service 24 hours a day, 7 days a week !</p>
+                    <p>* We have a special department.  You have a problem?  We are always available to solve it !</p>
+                </div>
+            </div>
+        </section>
+    <footer class="footerC">
+        <p class="pForYear">&copy; AG car rental Ltd. <span id="spanForYear"></span></p>
+    </footer>
+</body>
+</html>

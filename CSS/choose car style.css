@@ -1,0 +1,360 @@
+﻿.choosCarSection
+{
+    background: url('../images/background fo choose car.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 70%;
+    height: 535px;
+    margin: 1% auto;
+    box-shadow: 4px 5px 20px black;
+}
+.divForImages
+{
+    float: left;
+    width: 55%%;
+    margin: 9.5% 1%;
+    color: #333;
+    background-color: #ede7e7;
+    opacity: 0.9;
+    height: 66%;
+    text-align: center;
+    box-shadow: 2px 5px 10px #a8a0a0;
+}
+.allDivImagesClass
+{
+    display:none;
+}
+.firstCarImage
+{
+    background:url('../images/cars for display/1.jpg') no-repeat;
+    background-size:100% 100%;
+    height: 100%;
+    width: 100%;
+}
+.secondCarImage
+{
+    background:url('../images/cars for display/2.jpg') no-repeat;
+    background-size:112% 100%;
+    height: 100%;
+    width: 100%;
+}
+.thirdCarImage
+{
+    background:url('../images/cars for display/3.jpg') no-repeat;
+    background-size:140% 100%;
+    height: 100%;
+    width: 100%;
+}
+.fourthCarImage
+{
+    background:url('../images/cars for display/4.jpg') no-repeat;
+    background-size:111% 100%;
+    height: 100%;
+    width: 100%;
+}
+.fifthCarImage
+{
+    background:url('../images/cars for display/5.jpg') no-repeat;
+    background-size:147% 100%;
+    height: 100%;
+    width: 100%;
+}
+.sixthCarImage
+{
+    background:url('../images/cars for display/6.jpg') no-repeat;
+    background-size:100% 100%;
+    height: 100%;
+    width: 100%;
+}
+.seventhtCarImage
+{
+    background:url('../images/cars for display/7.jpg') no-repeat;
+    background-size:107% 100%;
+    height: 100%;
+    width: 100%;
+}
+.eighthCarImage
+{
+    background:url('../images/cars for display/8.jpg') no-repeat;
+    background-size:137% 100%;
+    height: 100%;
+    width: 100%;
+}
+.ninthCarImage
+{
+    background:url('../images/cars for display/9.jpg') no-repeat;
+    background-size:100% 100%;
+    height: 100%;
+    width: 100%;
+}
+.tenthCarImage
+{
+    background:url('../images/cars for display/10.jpg') no-repeat;
+    background-size:100% 100%;
+    height: 100%;
+    width: 100%;
+}
+.flexDivForDetails
+{
+    display: flex;
+    height: 20%;
+    width: 90%;
+    margin-left: 4%;
+    padding-top: 57%;
+    font-weight:900;
+    color:white;
+}
+.detailsDiv
+{
+    flex: 1;
+    text-align: center;
+    margin: 0% 0%;
+}
+.divForCarsList
+{
+    float: right;
+    height: 79%;
+    width: 33%;
+    background-color: #ede7e7;
+    opacity: 0.8;
+    margin-top: 1.9%;
+    margin-right: 2%;
+    padding: 4% 3%;
+    box-shadow: 2px 5px 10px #a8a0a0;
+}
+.divFamiliBox
+{
+    margin-top: 0%;
+    margin-left: 5%;
+}
+
+.divPrivateBox
+{
+    margin-top:2%;
+    margin-left: 4%;
+}
+.divORVBox
+{
+    margin-top:4%;
+    margin-left: 5%;
+}
+.divFamiliCar,.divPrivateCar,.divORVCar
+{
+    font-family: cursive;
+    text-decoration: underline;
+    margin-bottom: 3%;
+    color: #ee3939;
+}
+.carsClass
+{
+    font-size:17px;
+    font-family: monospace;
+    margin:2%;
+    font-weight: 600;
+}
+.carsClass span
+{
+   cursor:pointer;
+}
+.classForCurrentCar 
+{
+    font-size:21px;
+    color:brown;
+}
+.divForAskIfItsOkay
+{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: -6%;
+    margin-top: 4%;
+}
+.continueButton
+{
+    background-color: #ee3939;
+    outline: none;
+    height: 8%;
+    text-align: center;
+    width: 25%;
+    color: white;
+    border-radius: 6px;
+    margin-top: 2%;
+    margin-left: 19%;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+.cancelButton
+{
+    background-color: #ee3939;
+    outline: none;
+    height: 8%;
+    text-align: center;
+    width: 25%;
+    color: white;
+    border-radius: 6px;
+    margin-top: 2%;
+    margin-left: 12%;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+@media screen and (max-width : 1300px)  and (min-width : 1099px){
+    .detailsDiv 
+    {
+        font-size: 13px;
+    }
+    .flexDivForDetails
+    {
+        padding-top: 67%;
+    }
+    .cancelButton
+    {
+        width:26%;
+    }
+    .continueButton
+    {
+        width:26%;
+    }
+}
+@media screen and (max-width : 1099px) and (min-width : 999px) {
+    .detailsDiv 
+    {
+        font-size: 13px;
+    }
+    .flexDivForDetails
+    {
+        padding-top: 75%;
+    }
+    .cancelButton
+    {
+        width:26%;
+        font-size: 11px;
+        height: 7%;
+    }
+    .continueButton
+    {
+        width:26%;
+        font-size: 11px;
+        height: 7%;
+    }
+}
+@media screen and (max-width : 999px) and (min-width: 890px) {
+     .detailsDiv 
+    {
+        font-size: 11px;
+    }
+    .flexDivForDetails
+    {
+        padding-top: 85%;
+    }
+    .cancelButton
+    {
+        width:26%;
+        font-size: 11px;
+        height: 7%;
+        margin-top:10%;
+    }
+    .continueButton
+    {
+        width:26%;
+        font-size: 11px;
+        height: 7%;
+        margin-top:10%;
+    }
+
+}
+@media screen and (max-width : 890px) and (min-width: 798px){
+    .detailsDiv 
+    {
+        font-size: 11px;
+    }
+    .flexDivForDetails
+    {
+        padding-top: 94%;
+    }
+    .divForAskIfItsOkay
+    {
+        font-size:10px;
+    }
+    .cancelButton
+    {
+        width:29%;
+        font-size: 11px;
+        height: 5%;
+        margin-top:10%;
+    }
+    .continueButton
+    {
+        width:29%;
+        font-size: 11px;
+        height: 5%;
+        margin-top:10%;
+    }
+}
+@media screen and (max-width : 798px) and (min-width : 678px) {
+    .detailsDiv 
+    {
+        font-size: 11px;
+    }
+    .flexDivForDetails
+    {
+        padding-top: 104%;
+    }
+    .divForCarsList
+    {
+        height:85%;
+    }
+    .divForAskIfItsOkay
+    {
+        font-size:10px;
+    }
+    .cancelButton
+    {
+        width:29%;
+        font-size: 10px;
+        height: 5%;
+        margin-top:10%;
+    }
+    .continueButton
+    {
+        width:29%;
+        font-size: 10px;
+        height: 5%;
+        margin-top:10%;
+    }
+
+}
+@media screen and (max-width : 678px) /*and (min-width : 447px)*/{
+    .detailsDiv 
+    {
+        font-size: 11px;
+    }
+    .flexDivForDetails
+    {
+        padding-top: 122%;
+    }
+    .divForCarsList
+    {
+        height:91%;
+    }
+    .divForAskIfItsOkay
+    {
+        font-size:10px;
+        margin-top:2%;
+    }
+    .cancelButton
+    {
+        width:32%;
+        font-size: 10px;
+        height: 5%;
+        margin-top:10%;
+    }
+    .continueButton
+    {
+        width:32%;
+        font-size: 10px;
+        height: 5%;
+        margin-top:10%;
+    }
+}
